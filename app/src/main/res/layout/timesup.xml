@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="310dp"
+        android:layout_height="338dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/timesupgr"
+        android:layout_gravity="center"
+>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/timeup"
+            android:layout_marginTop="10dp"
+    />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Score: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:id="@+id/totalscrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+    >
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/popbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Again"
+                android:textAllCaps="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonpop"
+                android:padding="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="4dp"
+        />
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/popbbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonpop"
+                android:padding="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="4dp"
+        />
+    </LinearLayout>
+</LinearLayout>

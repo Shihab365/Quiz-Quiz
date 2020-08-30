@@ -1,7 +1,7 @@
 # Quiz-Quiz
-Quiz Quiz is an android app for playing quiz game. User can play quiz in 4 catagories. Special features are,
-Quick Quiz: 90 second time
-Unlimited Play: When your answer is wrong game is over.
+Quiz Quiz is an android app for playing quiz game. User can play quiz in 4 catagories. Special features are,  
+Quick Quiz: 90 second time  
+Unlimited Play: When your answer is wrong game is over.  
 *This is my university assignment.
 
 
